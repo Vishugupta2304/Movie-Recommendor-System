@@ -1,0 +1,16 @@
+FRONT END:-
+
+import requests
+import streamlit as sl
+import pickle
+import pandas as pd
+
+BACK END:-
+
+import pandas as pd
+import numpy as np
+import ast
+from sklearn.feature_extraction.text import CountVectorizer
+from nltk.stem.porter import PorterStemmer
+from sklearn.metrics.pairwise import cosine_similarity
+import pickle
